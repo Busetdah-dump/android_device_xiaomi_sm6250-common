@@ -651,6 +651,10 @@
             4 - Go to voice assist
             5 - Go to assistant (Settings.Secure.ASSISTANT)
     -->
+
+    <!-- Whether to cancel fingerprint operation if not idle -->
+    <bool name="config_fpCancelIfNotIdle">true</bool>
+
     <integer name="config_longPressOnPowerBehavior">1</integer>
 
     <!-- Control the behavior when the user presses the power and volume up buttons together.
